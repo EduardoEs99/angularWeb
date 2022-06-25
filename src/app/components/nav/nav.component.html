@@ -1,0 +1,41 @@
+<nav class="navbar navbar-dark navbar-expand bg-black">
+  <div class="container-fluid">
+        <a class="navbar-brand" href="/"> 
+          MusicPRO
+        </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <mat-icon>bolt</mat-icon> PRODUCTOS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" [routerLink]="'amplificadores'">AMPLIFICADORES</a></li>
+              <li><a class="dropdown-item" [routerLink]="'intcuerda'">INSTRUMENTOS DE CUERDA</a></li>
+              <li><a class="dropdown-item" [routerLink]="'percusion'">PERCUSION</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#"> <mat-icon>local_offer</mat-icon> OFERTAS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <mat-icon>location_on</mat-icon> TIENDAS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">TIENDA PROVIDENCIA</a></li>
+              <li><a class="dropdown-item" href="#">TIENDA MAIPU</a></li>
+              <li><a class="dropdown-item" href="#">TIENDA SANTIAGO</a></li>
+              <li><a class="dropdown-item" href="#">TIENDA VITACURA</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mb-2 mb-lg-0" role="search">
+          <input class="form-control me-2" type="search" placeholder="¿Que Buscas?" aria-label="search">
+          <button mat-button [routerLink]=""><mat-icon style="color: whitesmoke">search</mat-icon></button>
+          <button mat-button [routerLink]=""><mat-icon style="color: whitesmoke">shopping_cart</mat-icon></button>
+          <button mat-button [routerLink]="'auth'"><mat-icon style="color: whitesmoke"> person </mat-icon></button>
+        </form>
+      </div>
+  </div>
+</nav>
