@@ -30,6 +30,7 @@ import { GibsonComponent } from './components/marcas/gibson/gibson.component';
 import { EspComponent } from './components/marcas/esp/esp.component';
 import { IbanezComponent } from './components/marcas/ibanez/ibanez.component';
 import { FooterComponent } from './components/home/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +50,7 @@ import { FooterComponent } from './components/home/footer/footer.component';
     GibsonComponent,
     EspComponent,
     IbanezComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
