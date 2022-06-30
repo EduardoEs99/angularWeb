@@ -29,7 +29,6 @@ import { MarshallComponent } from './components/marcas/marshall/marshall.compone
 import { GibsonComponent } from './components/marcas/gibson/gibson.component';
 import { EspComponent } from './components/marcas/esp/esp.component';
 import { IbanezComponent } from './components/marcas/ibanez/ibanez.component';
-import { FooterComponent } from './components/home/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +49,6 @@ import { FooterComponent } from './components/home/footer/footer.component';
     GibsonComponent,
     EspComponent,
     IbanezComponent,
-    FooterComponent,
   ],
   imports: [
     BrowserModule,
